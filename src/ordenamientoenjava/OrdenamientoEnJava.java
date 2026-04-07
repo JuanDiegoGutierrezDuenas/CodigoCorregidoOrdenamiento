@@ -6,10 +6,19 @@ public class OrdenamientoEnJava {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("¿Cuantos elementos quiere implementar?");
-        int arr[] = {5,2,11,-8,115,56,-3};
-        ordenar (arr);
+        int n = sc.nextInt();
+  
+        int arr[] = new int[n];
+        
+        System.out.println("Ingresa los " + n +"elementos: ");
+        for (int i = 0; i<n ; i++){
+            arr[i] = sc.nextInt();
+        }
+        
+        ordenar(arr);
+        System.out.println("El arreglo ordenado es: ");
         for(int num :arr){
-    System.out.print(num + " ");
+      System.out.print(num + " ");
     }
 }
     public static void ordenar(int v[]){
