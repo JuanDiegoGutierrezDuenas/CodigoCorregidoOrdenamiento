@@ -1,9 +1,11 @@
 
 package ordenamientoenjava;
-
+import java.util.*;
 public class OrdenamientoEnJava {
 
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("¿Cuantos elementos quiere implementar?");
         int arr[] = {5,2,11,-8,115,56,-3};
         ordenar (arr);
         for(int num :arr){
