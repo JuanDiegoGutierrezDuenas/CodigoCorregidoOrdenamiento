@@ -10,10 +10,7 @@ public class OrdenamientoEnJava {
   
         int arr[] = new int[n];
         
-        System.out.println("Ingresa los " + n +"elementos: ");
-        for (int i = 0; i<n ; i++){
-            arr[i] = sc.nextInt();
-        }
+      
         
         ordenar(arr);
         System.out.println("El arreglo ordenado es: ");
