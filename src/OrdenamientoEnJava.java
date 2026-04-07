@@ -15,7 +15,8 @@ public class OrdenamientoEnJava {
             arr[i] = rand.nextInt(201)-100;
         }
         
-        ordenar(arr);
+        /*ordenar(arr);*/
+        insertar(arr);
         System.out.println("El arreglo ordenado es: ");
         for(int num :arr){
       System.out.print(num + " ");
@@ -47,5 +48,5 @@ public static void insertar(int v[]){
             }
             v[j+1] = clave;
         }
-} 
+ } 
 }
