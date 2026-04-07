@@ -21,7 +21,7 @@ public class OrdenamientoEnJava {
       System.out.print(num + " ");
     }
 }
-   / public static void ordenar(int v[]){
+   /* public static void ordenar(int v[]){
         for(int i = 0 ; i< v.length-1; i++){
             for( int j = i+1;j< v.length;j++)
                 if (v[i] > v[j]){
@@ -34,7 +34,7 @@ public class OrdenamientoEnJava {
         
     }
     
-}
+}*/
 public static void insertar(int v[]){
         for(int i = 1; i < v.length; i++){
             int clave = v[i];
@@ -48,4 +48,4 @@ public static void insertar(int v[]){
             v[j+1] = clave;
         }
 } 
-
+}
