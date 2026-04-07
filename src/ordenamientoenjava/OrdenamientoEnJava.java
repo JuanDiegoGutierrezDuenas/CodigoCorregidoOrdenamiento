@@ -35,3 +35,6 @@ public class OrdenamientoEnJava {
     }
     
 }
+public static void insertar(int v[]){
+
+}
